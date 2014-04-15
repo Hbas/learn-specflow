@@ -1,0 +1,20 @@
+﻿@model Hbas.LearnSpecflow.SampleSUT.Models.LoginViewModel
+@using (@Html.BeginForm("Login", "Login"))
+{
+    <div class="login-box">
+        <h1>System Under Test (SUT)</h1>
+        <div>
+            @Html.LabelFor(m => m.Login)
+            @Html.ValidationMessageFor(m => m.Login)
+            @Html.TextBoxFor(m => m.Login)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Password)
+            @Html.ValidationMessageFor(m => m.Password)
+            @Html.TextBoxFor(m => m.Password)
+        </div>
+        <div>
+            <input type="submit" value="Sign In" />
+        </div>
+    </div>
+}
