@@ -34,3 +34,18 @@ You will have something like:
   </specFlow>
 ```
 
+Let´s code
+====
+  1. The "Nunit test" scenario
+  2. The "Coypu test" scenario
+    * Copy the AbstractStep class and the Chrome Driver from this repository ;)
+    * In the future, you should get the Chrome Driver from https://code.google.com/p/selenium/wiki/ChromeDriver
+  3. The valid login scenario
+  4. The invalid login scenario
+
+To do (by yourself)...
+====
+  * Instead of opening a new browser every scenario, we should cache it and create only one for each feature (or even execution)...
+  * Using 2 or more browsers simultaneously for the same testcase
+  * Real tests ;)
+
